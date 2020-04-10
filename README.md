@@ -17,8 +17,8 @@ in your script,
 Then run 'captcha.php' and you'll find out how it works!
 
 ## Development Info
-* Homepage: https://github.com/
-* Repo: https://github.com/
+* Homepage: https://github.com/TadavomnisT/captcha_for_php
+* Repo: https://github.com/TadavomnisT/captcha_for_php
 
 ## Author
 * Behrad.B
