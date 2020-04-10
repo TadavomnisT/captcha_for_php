@@ -4,7 +4,8 @@ Hey there!
 
 I've scripted a few captchas so I decided to share them with you.
 The first 2 are not really gonna help you with anything but learning how to develope your own captcha!
-I recommend you to use third one (antiOCRcaptcha), though it's still in procces of debugging but works fine with less than 10 characters.
+I recommend you to use third one (antiOCRcaptcha), fully debugged, works fine with less than 32 charcters.
+A new mathematical captcha will add soon.
 You can also help me to develope it.
 
 ## Usage
