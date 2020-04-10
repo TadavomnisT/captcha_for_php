@@ -10,7 +10,8 @@ You can also help me to develope it.
 ## Usage
 * Simply just use :
 ```php
-    if (!file_exists('captcha.php'))copy('https://github.com/', 'captcha.php');
+    if (!file_exists('captcha.php'))
+    copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/index.php', 'captcha.php');
 ```
 in your script,
 Then run 'captcha.php' and you'll find out how it works!
