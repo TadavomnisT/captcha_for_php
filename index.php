@@ -8,7 +8,7 @@
 
 // Downloading required files
 $files=array( "basicCaptcha.php","dynamicBasicCaptcha.php","untiOCRcaptcha.php","seeSessions.php","zxx-noise.ttf","zxx-xed.ttf" );
-foreach ($files as $file)if (!file_exists($file))copy('https://github.com/'.$file, $file);
+foreach ($files as $file)if (!file_exists($file))copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/'.$file, $file);
 
 
 echo'
