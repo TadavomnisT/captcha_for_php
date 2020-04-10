@@ -7,7 +7,7 @@
 */
 
 // Downloading required files
-$files=array( "basicCaptcha.php","dynamicBasicCaptcha.php","untiOCRcaptcha.php","seeSessions.php","zxx-noise.ttf","zxx-xed.ttf" );
+$files=array( "basicCaptcha.php","dynamicBasicCaptcha.php","antiOCRcaptcha.php","seeSessions.php","zxx-noise.ttf","zxx-xed.ttf" );
 foreach ($files as $file)if (!file_exists($file))copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/'.$file, $file);
 
 
@@ -27,7 +27,7 @@ echo'
     <img id="cpch2" src="dynamicBasicCaptcha.php" alt="captcha">
     <br>
     This is an OCR proof captcha :<br>
-    <img id="cpch3" src="untiOCRcaptcha.php" alt="captcha">
+    <img id="cpch3" src="antiOCRcaptcha.php" alt="captcha">
     <br>
     <a href="seeSessions.php" target="_blank">See Sessions!</a> 
 </body>
