@@ -10,6 +10,10 @@ You can also help me to develope it.
 
 ## Usage
 * Simply just use :
+```
+    git clone https://github.com/TadavomnisT/captcha_for_php.git
+```
+* or directly in your php :
 ```php
     if (!file_exists('captcha.php'))
     copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/index.php', 'captcha.php');
