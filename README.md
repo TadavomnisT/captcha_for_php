@@ -13,12 +13,12 @@ You can also help me to develope it.
 ```
     git clone https://github.com/TadavomnisT/captcha_for_php.git
 ```
-* or directly in your php :
+* or directly :
 ```php
     if (!file_exists('captcha.php'))
     copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/index.php', 'captcha.php');
 ```
-in your script,
+in your php script,
 Then run 'captcha.php' and you'll find out how it works!
 
 ## Development Info
