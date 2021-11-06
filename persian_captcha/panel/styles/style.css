@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family: Tanha;
+	src: url('https://cdn.jsdelivr.net/gh/rastikerdar/tanha-font@v0.10/dist/Tanha.eot');
+	src: url('https://cdn.jsdelivr.net/gh/rastikerdar/tanha-font@v0.10/dist/Tanha.eot?#iefix') format('embedded-opentype'),
+		 url('https://cdn.jsdelivr.net/gh/rastikerdar/tanha-font@v0.10/dist/Tanha.woff') format('woff'),
+		 url('https://cdn.jsdelivr.net/gh/rastikerdar/tanha-font@v0.10/dist/Tanha.ttf') format('truetype');
+	font-weight: normal;
+  }
+  
+
+*{
+	font-family: Tanha !important;
+}
+  
+body{
+	/* zoom: 150%; */
+	margin: 0;
+	padding: 0;
+	background: #34495e;
+	
+}
+.Box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	
+}
+.Box input[type = "text"] , .Box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;	
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;	
+}
+.Box h1{
+	color: white;
+}
+
+
+.Box input[type = "text"]:focus ,.Box input[type="password"]:focus {
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.Box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;	
+	padding: 14px 40px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.Box input[type = "submit"]:hover{
+	background: #2ecc71;
+	
+	
+}
+
+/* ===================================================== */
+.Panel{
+	width: 1000px;
+	height: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+	overflow:scroll;
+}
+/* .Panel input[type = "text"] , .Panel input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;	
+	padding: 14px 10px;
+	width: 800px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;	
+} */
+.Panel h1{
+	color: white;
+}
+
+
+.Panel input[type = "text"]:focus ,.Panel input[type="password"]:focus {
+	width: 880px;
+	border-color: #2ecc71;
+}
+
+.Panel input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;	
+	padding: 14px 40px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.Panel input[type = "submit"]:hover{
+	background: #2ecc71;
+	
+	
+}
+
+/* ================================================================= */
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.cc-selector-2 input{
+    position:absolute;
+    z-index:999;
+}
+
+
+.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+			filter: brightness(1.8) grayscale(1) opacity(.7);
+			outline: 5px dotted #f00;
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+* { font-family:monospace; }
+.cc-selector-2 input{ margin: 5px 0 0 12px; }
+.cc-selector-2 label{ margin-left: 7px; }
+span.cc{ color:#6d84b4 }
+
+
+/* ================================================================= */
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	}
+table thead{
+	background-color: #009879;
+	color: #ffffff;
+	text-align: center;
+}
+	td {
+	background-color: #ffffff;
+	padding: 5px;
+	text-align: center;    
+	}
