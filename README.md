@@ -62,6 +62,6 @@ Please read [this](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php
 * Contact: http://TadavomnisT.iR , t.me/TadavomnisT
 
 ## License
-* Opened source so, ... :)
+*  GPL-3.0 license 
 
 Have fun!
