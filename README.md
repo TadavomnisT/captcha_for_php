@@ -2,7 +2,7 @@
 
 Hey there!
 
-I've scripted a few captchas so I decided to share them with you.
+I've created a few captchas so I decided to share them with you.
 
 The first 2 are not gonna really help you with anything but learning how to develope your own captcha!
 
@@ -22,7 +22,7 @@ You can also help me to develope it.
 ![dynamicBasicCaptcha](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/dynamicBasicCaptcha.jpeg)
 
 
-#### *Atni-OCR captcha (Recommended):
+#### *Anti-OCR captcha (Recommended):
 ![antiOCRcaptcha_32](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/antiOCRcaptcha_32.jpeg)
 
 ![antiOCRcaptcha_16](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/antiOCRcaptcha_16.jpeg)
@@ -49,7 +49,7 @@ You can also help me to develope it.
 
 Then run 'captcha.php' and you'll find out how English captcha works!
 
-To learn how to work with Persian captcha read [this](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/persian_captcha_document.pdf) document .
+Please read [this](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/persian_captcha_document.pdf) document in order to learn how to work with Persian captcha.
 *برای یادگیری کار با کپچای فارسی [اینجا](https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/persian_captcha_document.pdf) را مطالعه بفرمائید*
 * Link: https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/Document_files/persian_captcha_document.pdf 
 
